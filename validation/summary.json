@@ -1,0 +1,21 @@
+{
+  "firmware_build": {
+    "passed": true,
+    "idf": "v6.1",
+    "board": "esp32-s3-touch-amoled-2.16",
+    "application_bytes": 4261120,
+    "flash_slot_bytes": 4653056
+  },
+  "core_cpp_tests": 27,
+  "asan_ubsan": true,
+  "monitor_python_tests": 23,
+  "mind_python_tests": 59,
+  "native_ui": {
+    "passed": true,
+    "story_archive_pages": 26,
+    "device_font_glyph_checks": 2355
+  },
+  "hardware_opened_or_flashed": false,
+  "live_cloud_model_tested": false,
+  "private_saves_included": false
+}

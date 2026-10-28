@@ -1,0 +1,363 @@
+{
+  "version": 1,
+  "generator": "built-in image_gen",
+  "frame_size": [
+    160,
+    176
+  ],
+  "anchor": [
+    80,
+    72
+  ],
+  "reference": "../robot-hover-v1/frames/hover_0-v3.png",
+  "reference_shell_width": 59,
+  "registration": "One scale per animation, orange/ivory rigid shell registered to existing hover reference; no per-frame scale changes",
+  "animations": {
+    "watch_window": {
+      "title": "Watch window",
+      "frame_ms": 650,
+      "loop": true,
+      "frames": [
+        "frames/watch_window_0.png",
+        "frames/watch_window_1.png",
+        "frames/watch_window_2.png",
+        "frames/watch_window_3.png"
+      ],
+      "source": "watch-window.png",
+      "scale": 0.19865319865319866
+    },
+    "inspect_plant": {
+      "title": "Inspect plant",
+      "frame_ms": 500,
+      "loop": true,
+      "frames": [
+        "frames/inspect_plant_0.png",
+        "frames/inspect_plant_1.png",
+        "frames/inspect_plant_2.png",
+        "frames/inspect_plant_3.png"
+      ],
+      "source": "inspect-plant.png",
+      "scale": 0.19699499165275458
+    }
+  },
+  "frames": [
+    {
+      "name": "watch_window_0",
+      "file": "frames/watch_window_0.png",
+      "source_cell": [
+        0,
+        0
+      ],
+      "source_shell": [
+        356,
+        207,
+        652,
+        530
+      ],
+      "shell_width": 58.801,
+      "scale": 0.19865319865319866,
+      "bounds": [
+        25,
+        14,
+        99,
+        108
+      ],
+      "bytes": 14765,
+      "sha256": "7e7858bb88a15b6eedfbb1561f5a4993a300ef711feab15dc45f7dfdfa57295f"
+    },
+    {
+      "name": "watch_window_1",
+      "file": "frames/watch_window_1.png",
+      "source_cell": [
+        1,
+        0
+      ],
+      "source_shell": [
+        174,
+        205,
+        478,
+        467
+      ],
+      "shell_width": 60.391,
+      "scale": 0.19865319865319866,
+      "bounds": [
+        24,
+        16,
+        99,
+        107
+      ],
+      "bytes": 14811,
+      "sha256": "83b2228812d27d00dc6551ebaa2a029f55ec8cafaff7b7e300396d317d39f98d"
+    },
+    {
+      "name": "watch_window_2",
+      "file": "frames/watch_window_2.png",
+      "source_cell": [
+        0,
+        1
+      ],
+      "source_shell": [
+        373,
+        162,
+        671,
+        480
+      ],
+      "shell_width": 59.199,
+      "scale": 0.19865319865319866,
+      "bounds": [
+        26,
+        18,
+        99,
+        108
+      ],
+      "bytes": 14551,
+      "sha256": "c83b0ae6f2fba97d27056278c39649e96e0fddce32cea890c59805f156aa3e45"
+    },
+    {
+      "name": "watch_window_3",
+      "file": "frames/watch_window_3.png",
+      "source_cell": [
+        1,
+        1
+      ],
+      "source_shell": [
+        178,
+        154,
+        471,
+        422
+      ],
+      "shell_width": 58.205,
+      "scale": 0.19865319865319866,
+      "bounds": [
+        24,
+        20,
+        98,
+        111
+      ],
+      "bytes": 14180,
+      "sha256": "ecdd3bb290ec4c5d0dcacb46998c6f213ddf898609bf737a3745289ac53836ec"
+    },
+    {
+      "name": "inspect_plant_0",
+      "file": "frames/inspect_plant_0.png",
+      "source_cell": [
+        0,
+        0
+      ],
+      "source_shell": [
+        264,
+        166,
+        567,
+        392
+      ],
+      "shell_width": 59.689,
+      "scale": 0.19699499165275458,
+      "bounds": [
+        30,
+        14,
+        117,
+        109
+      ],
+      "bytes": 15613,
+      "sha256": "da7b0f3a39559612540b7a9f14e5b904b005cea9651d12e5aadd2ef0c9ace8ea"
+    },
+    {
+      "name": "inspect_plant_1",
+      "file": "frames/inspect_plant_1.png",
+      "source_cell": [
+        1,
+        0
+      ],
+      "source_shell": [
+        172,
+        195,
+        468,
+        488
+      ],
+      "shell_width": 58.311,
+      "scale": 0.19699499165275458,
+      "bounds": [
+        30,
+        17,
+        125,
+        104
+      ],
+      "bytes": 15566,
+      "sha256": "2d215932adef7fb8c3796e1f4fade39d7133d0340101bdcc4966222e6173e0c1"
+    },
+    {
+      "name": "inspect_plant_2",
+      "file": "frames/inspect_plant_2.png",
+      "source_cell": [
+        0,
+        1
+      ],
+      "source_shell": [
+        263,
+        155,
+        567,
+        379
+      ],
+      "shell_width": 59.886,
+      "scale": 0.19699499165275458,
+      "bounds": [
+        30,
+        17,
+        126,
+        108
+      ],
+      "bytes": 15848,
+      "sha256": "01ad4a8129b71bbe86d4d603ccf37f8905bea528261813f9a943eb5700995efd"
+    },
+    {
+      "name": "inspect_plant_3",
+      "file": "frames/inspect_plant_3.png",
+      "source_cell": [
+        1,
+        1
+      ],
+      "source_shell": [
+        188,
+        160,
+        482,
+        379
+      ],
+      "shell_width": 57.917,
+      "scale": 0.19699499165275458,
+      "bounds": [
+        31,
+        16,
+        124,
+        109
+      ],
+      "bytes": 15379,
+      "sha256": "10a178e6f3ba6bad2a50527790c3ec79cbe71d950202459635fb00ef550c9115"
+    }
+  ],
+  "device_status": "PNG assets and local preview only; no firmware or save changes",
+  "frame_count": 8,
+  "png_bytes": 120713,
+  "device_assets": [
+    {
+      "name": "Life_watch_window_0",
+      "format": "I4",
+      "width": 72,
+      "height": 92,
+      "stride": 36,
+      "offset": [
+        -53,
+        -57
+      ],
+      "bytes": 3376,
+      "file": "device/Life_watch_window_0.bin",
+      "preview": "device/Life_watch_window_0.png",
+      "sha256": "aab9cfa5486da86720a22e626f9613fe250dd43bcffacf8f1a548408026c4126"
+    },
+    {
+      "name": "Life_watch_window_1",
+      "format": "I4",
+      "width": 73,
+      "height": 88,
+      "stride": 40,
+      "offset": [
+        -54,
+        -55
+      ],
+      "bytes": 3584,
+      "file": "device/Life_watch_window_1.bin",
+      "preview": "device/Life_watch_window_1.png",
+      "sha256": "e34389694ed0f3c5bc35296ca4cd9fefd9888fcd4533df1ec7af9747c5c4ec0c"
+    },
+    {
+      "name": "Life_watch_window_2",
+      "format": "I4",
+      "width": 71,
+      "height": 88,
+      "stride": 36,
+      "offset": [
+        -53,
+        -53
+      ],
+      "bytes": 3232,
+      "file": "device/Life_watch_window_2.bin",
+      "preview": "device/Life_watch_window_2.png",
+      "sha256": "38081705571bd8cab4bf865a06436785708d1e5a56499f8dac694264f0a59dac"
+    },
+    {
+      "name": "Life_watch_window_3",
+      "format": "I4",
+      "width": 72,
+      "height": 88,
+      "stride": 36,
+      "offset": [
+        -54,
+        -51
+      ],
+      "bytes": 3232,
+      "file": "device/Life_watch_window_3.bin",
+      "preview": "device/Life_watch_window_3.png",
+      "sha256": "158bbf4ae52d7351191dcdc1576a3f29cbc0ae191aef11131b81bb4c98371f59"
+    },
+    {
+      "name": "Life_inspect_plant_0",
+      "format": "I4",
+      "width": 85,
+      "height": 91,
+      "stride": 44,
+      "offset": [
+        -48,
+        -56
+      ],
+      "bytes": 4068,
+      "file": "device/Life_inspect_plant_0.bin",
+      "preview": "device/Life_inspect_plant_0.png",
+      "sha256": "48d398c068516c16867c3ffeef2ee063504a12fecd30efd1e9a6643bde856123"
+    },
+    {
+      "name": "Life_inspect_plant_1",
+      "format": "I4",
+      "width": 92,
+      "height": 85,
+      "stride": 48,
+      "offset": [
+        -48,
+        -55
+      ],
+      "bytes": 4144,
+      "file": "device/Life_inspect_plant_1.bin",
+      "preview": "device/Life_inspect_plant_1.png",
+      "sha256": "05483129161fe3fecc4d86e75037c3916a60908d3c25bf2d8519bfd8d72333c9"
+    },
+    {
+      "name": "Life_inspect_plant_2",
+      "format": "I4",
+      "width": 94,
+      "height": 88,
+      "stride": 48,
+      "offset": [
+        -48,
+        -54
+      ],
+      "bytes": 4288,
+      "file": "device/Life_inspect_plant_2.bin",
+      "preview": "device/Life_inspect_plant_2.png",
+      "sha256": "ad8e1e5e93897eb234f1f984b19e9289a5a01881521f885f814c8e5509bb5ae0"
+    },
+    {
+      "name": "Life_inspect_plant_3",
+      "format": "I4",
+      "width": 90,
+      "height": 90,
+      "stride": 48,
+      "offset": [
+        -47,
+        -55
+      ],
+      "bytes": 4384,
+      "file": "device/Life_inspect_plant_3.bin",
+      "preview": "device/Life_inspect_plant_3.png",
+      "sha256": "77d010f61e9aea932911edfc497135e05a09ef545cff79e0d2f7dc6e341abfdb"
+    }
+  ],
+  "device_bytes": 30308
+}

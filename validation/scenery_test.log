@@ -1,0 +1,5 @@
+region 1 visible=17947 moving=19678
+region 2 visible=20265 moving=20814
+region 3 visible=17648 moving=20023
+region 4 visible=19101 moving=22572
+Four region decoders and reflected boundary samples safe; window frame excluded.

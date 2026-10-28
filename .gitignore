@@ -1,0 +1,15 @@
+build/
+.build/
+tests/.build/
+.venv/
+__pycache__/
+*.pyc
+monitor/data/
+monitor/server.pid
+evidence/
+.DS_Store
+
+vendor/xiaozhi-esp32/build/
+vendor/xiaozhi-esp32/managed_components/
+vendor/xiaozhi-esp32/releases/
+*.zip

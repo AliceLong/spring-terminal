@@ -1,0 +1,61 @@
+{
+  "frames": [
+    {
+      "name": "water_0",
+      "width": 32,
+      "height": 32,
+      "format": "RGB565A8",
+      "bytes": 3072
+    },
+    {
+      "name": "water_1",
+      "width": 32,
+      "height": 32,
+      "format": "RGB565A8",
+      "bytes": 3072
+    },
+    {
+      "name": "energy_0",
+      "width": 32,
+      "height": 32,
+      "format": "RGB565A8",
+      "bytes": 3072
+    },
+    {
+      "name": "energy_1",
+      "width": 32,
+      "height": 32,
+      "format": "RGB565A8",
+      "bytes": 3072
+    },
+    {
+      "name": "fiber_0",
+      "width": 32,
+      "height": 32,
+      "format": "RGB565A8",
+      "bytes": 3072
+    },
+    {
+      "name": "fiber_1",
+      "width": 32,
+      "height": 32,
+      "format": "RGB565A8",
+      "bytes": 3072
+    },
+    {
+      "name": "leaf_0",
+      "width": 32,
+      "height": 32,
+      "format": "RGB565A8",
+      "bytes": 3072
+    },
+    {
+      "name": "leaf_1",
+      "width": 32,
+      "height": 32,
+      "format": "RGB565A8",
+      "bytes": 3072
+    }
+  ],
+  "flash_pixels": 24576
+}

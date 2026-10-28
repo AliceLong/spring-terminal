@@ -1,0 +1,24 @@
+{
+  "source": "masters/passenger-seat.png",
+  "device": {
+    "name": "Prop_passenger_seat",
+    "format": "I4",
+    "offset": [
+      -72,
+      -98
+    ],
+    "width": 144,
+    "height": 98,
+    "stride": 72,
+    "bytes": 7120,
+    "sha256": "393d8d18f23a20ff2ded19ec94357a2315937e60fc34305a8d54d490aabe9cdb",
+    "decoded_cache_bytes": 56448
+  },
+  "position": [
+    240,
+    338
+  ],
+  "purpose": "old railway passenger seating; not a facility",
+  "story_unlocked": false,
+  "unlock": "Reserved for chapter2; no current unlock route"
+}

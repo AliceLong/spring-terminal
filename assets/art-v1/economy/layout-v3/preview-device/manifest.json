@@ -1,0 +1,1276 @@
+{
+  "flash_bytes": 972086,
+  "budget_bytes": 1048576,
+  "image_count": 73,
+  "encoding": "RGB565 static room and far layer + I4 sprites; fixed 480x480 view",
+  "assets": [
+    {
+      "name": "Background",
+      "width": 480,
+      "height": 480,
+      "stride": 960,
+      "format": "RGB565",
+      "offset": [
+        0,
+        0
+      ],
+      "bytes": 460800,
+      "sha256": "521faae58004efa055b549e9204bb744e07ce77cd5c1a3fb2d7b7f3ca2d39253",
+      "decoded_cache_bytes": 0
+    },
+    {
+      "name": "WindowFrame",
+      "width": 1,
+      "height": 1,
+      "stride": 4,
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "bytes": 68,
+      "sha256": "1751ac12e70e15b4f76c16775cd329ae55973b612521dab2de828a5cdb6c8ab3",
+      "decoded_cache_bytes": 4
+    },
+    {
+      "name": "Far",
+      "width": 1,
+      "height": 1,
+      "stride": 2,
+      "format": "RGB565",
+      "offset": [
+        0,
+        0
+      ],
+      "bytes": 2,
+      "sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "decoded_cache_bytes": 0
+    },
+    {
+      "name": "Near",
+      "width": 480,
+      "height": 90,
+      "stride": 240,
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "bytes": 21664,
+      "sha256": "1722d804be8e95f5fdebee870a370b673d0490a52fc1d0639d85bd9350dd63c9",
+      "decoded_cache_bytes": 172800
+    },
+    {
+      "name": "Plant_tracklight_seedling",
+      "width": 40,
+      "height": 31,
+      "stride": 20,
+      "format": "I4",
+      "offset": [
+        -19,
+        -30
+      ],
+      "bytes": 684,
+      "sha256": "784290e8cf0caf5152f683ae5eeb07bb29fd121fa89dd0fb504967a6908e22d6",
+      "decoded_cache_bytes": 4960
+    },
+    {
+      "name": "Plant_tracklight_growing",
+      "width": 50,
+      "height": 64,
+      "stride": 28,
+      "format": "I4",
+      "offset": [
+        -25,
+        -63
+      ],
+      "bytes": 1856,
+      "sha256": "d6b62828107b067dfc50cb8f63b1a590360435bfe17cc9354cd13ddafdb51896",
+      "decoded_cache_bytes": 12800
+    },
+    {
+      "name": "Plant_tracklight_mature",
+      "width": 71,
+      "height": 77,
+      "stride": 36,
+      "format": "I4",
+      "offset": [
+        -39,
+        -76
+      ],
+      "bytes": 2836,
+      "sha256": "ef69a675ece9e9364f197e797847b067e551f71535be35eb64bf9cd0c651887d",
+      "decoded_cache_bytes": 21868
+    },
+    {
+      "name": "Plant_dewmoss_seedling",
+      "width": 44,
+      "height": 27,
+      "stride": 24,
+      "format": "I4",
+      "offset": [
+        -20,
+        -26
+      ],
+      "bytes": 712,
+      "sha256": "43a4b55a198baf4b6b8be35d407904e2a4cbe853f056ab8ea4d352694602e1a4",
+      "decoded_cache_bytes": 4752
+    },
+    {
+      "name": "Plant_dewmoss_growing",
+      "width": 65,
+      "height": 41,
+      "stride": 36,
+      "format": "I4",
+      "offset": [
+        -35,
+        -40
+      ],
+      "bytes": 1540,
+      "sha256": "a8b42a6729ddd99abe58d846eb5b7f8d2cf29ec05f60cb16ce6613e64f2c097e",
+      "decoded_cache_bytes": 10660
+    },
+    {
+      "name": "Plant_dewmoss_mature",
+      "width": 85,
+      "height": 46,
+      "stride": 44,
+      "format": "I4",
+      "offset": [
+        -45,
+        -45
+      ],
+      "bytes": 2088,
+      "sha256": "cb9a52d9d36a37f6cfa6166921d02e45f766a7ee124a4f88fce7874f6bc1bae0",
+      "decoded_cache_bytes": 15640
+    },
+    {
+      "name": "Plant_patchvine_seedling",
+      "width": 36,
+      "height": 42,
+      "stride": 20,
+      "format": "I4",
+      "offset": [
+        -12,
+        -43
+      ],
+      "bytes": 904,
+      "sha256": "5ee2b2d1eba6b4dc1c39d66306f3354583fdc45048134241b2cef4e534d0add0",
+      "decoded_cache_bytes": 6048
+    },
+    {
+      "name": "Plant_patchvine_growing",
+      "width": 54,
+      "height": 69,
+      "stride": 28,
+      "format": "I4",
+      "offset": [
+        -29,
+        -70
+      ],
+      "bytes": 1996,
+      "sha256": "955d7b011fdfdd432c3c907c69dc9d273e3875c59465c41f198f6a611de329ba",
+      "decoded_cache_bytes": 14904
+    },
+    {
+      "name": "Plant_patchvine_mature",
+      "width": 81,
+      "height": 83,
+      "stride": 44,
+      "format": "I4",
+      "offset": [
+        -43,
+        -82
+      ],
+      "bytes": 3716,
+      "sha256": "b3ee47a7fb96b948a4a0b47af1836bf9878397242ecaf729f57e271e62c707ec",
+      "decoded_cache_bytes": 26892
+    },
+    {
+      "name": "TreeYoung",
+      "width": 73,
+      "height": 143,
+      "stride": 76,
+      "format": "I8",
+      "offset": [
+        -43,
+        -143
+      ],
+      "bytes": 11892,
+      "sha256": "6b2fd3ce995cd2d2b05d9a17833368e0d46738024d32cb4f14ca38e006e7a696",
+      "decoded_cache_bytes": 41756
+    },
+    {
+      "name": "TreeGrown",
+      "width": 215,
+      "height": 307,
+      "stride": 216,
+      "format": "I8",
+      "offset": [
+        -185,
+        -307
+      ],
+      "bytes": 67336,
+      "sha256": "27e5c37b719809e3e89cc01e4f77743783b06ce3b8fe1fa2abea46cf53125f01",
+      "decoded_cache_bytes": 264020
+    },
+    {
+      "name": "Robot_idle_0",
+      "width": 83,
+      "height": 117,
+      "stride": 44,
+      "format": "I4",
+      "offset": [
+        -36,
+        -115
+      ],
+      "bytes": 5212,
+      "sha256": "b9de2e70a13c5ff41dc4f377c483f6081ed1eba31a2b4b4feedd36aa55b6cd5b",
+      "decoded_cache_bytes": 38844
+    },
+    {
+      "name": "Robot_idle_1",
+      "width": 82,
+      "height": 115,
+      "stride": 44,
+      "format": "I4",
+      "offset": [
+        -37,
+        -113
+      ],
+      "bytes": 5124,
+      "sha256": "17c532f3f95b36da435def2475980a92724aa14fd2582886765df3d65b48cf32",
+      "decoded_cache_bytes": 37720
+    },
+    {
+      "name": "Robot_idle_2",
+      "width": 82,
+      "height": 110,
+      "stride": 44,
+      "format": "I4",
+      "offset": [
+        -39,
+        -108
+      ],
+      "bytes": 4904,
+      "sha256": "53a49fbd10c0712e0c17410c1fc13582bd745c9b2ee1aa1630701f20f6c5cc5d",
+      "decoded_cache_bytes": 36080
+    },
+    {
+      "name": "Robot_idle_3",
+      "width": 83,
+      "height": 117,
+      "stride": 44,
+      "format": "I4",
+      "offset": [
+        -39,
+        -115
+      ],
+      "bytes": 5212,
+      "sha256": "0e3254675e931942e8552de400f4257209f5f60791ff4346eddc581b79e4b8c2",
+      "decoded_cache_bytes": 38844
+    },
+    {
+      "name": "Robot_walk_0",
+      "width": 87,
+      "height": 115,
+      "stride": 44,
+      "format": "I4",
+      "offset": [
+        -52,
+        -113
+      ],
+      "bytes": 5124,
+      "sha256": "32f9d3b36c164aade0a097482e88496d6043203a705750d8c605342f35e39f6f",
+      "decoded_cache_bytes": 40020
+    },
+    {
+      "name": "Robot_walk_1",
+      "width": 84,
+      "height": 114,
+      "stride": 44,
+      "format": "I4",
+      "offset": [
+        -53,
+        -114
+      ],
+      "bytes": 5080,
+      "sha256": "93ffc5e7c9eaaa38e4b60940154862e1f74d252a1f3d2b7633e2157c41ac7a0c",
+      "decoded_cache_bytes": 38304
+    },
+    {
+      "name": "Robot_walk_2",
+      "width": 86,
+      "height": 111,
+      "stride": 44,
+      "format": "I4",
+      "offset": [
+        -52,
+        -112
+      ],
+      "bytes": 4948,
+      "sha256": "8031cbb1d24c55c86efa42bb565519e674a64c9202ca73359fd3baba2125f21c",
+      "decoded_cache_bytes": 38184
+    },
+    {
+      "name": "Robot_walk_3",
+      "width": 94,
+      "height": 111,
+      "stride": 48,
+      "format": "I4",
+      "offset": [
+        -50,
+        -113
+      ],
+      "bytes": 5392,
+      "sha256": "d43791e145605e921a57b943c8d552602f4114c5988196c87262aab4dde6c113",
+      "decoded_cache_bytes": 41736
+    },
+    {
+      "name": "Robot_tend_0",
+      "width": 122,
+      "height": 107,
+      "stride": 64,
+      "format": "I4",
+      "offset": [
+        -46,
+        -106
+      ],
+      "bytes": 6912,
+      "sha256": "010ecdee412880e64867789c5d264b1eb0266f2e5258be02dadf7324da076ad3",
+      "decoded_cache_bytes": 52216
+    },
+    {
+      "name": "Robot_tend_1",
+      "width": 103,
+      "height": 105,
+      "stride": 52,
+      "format": "I4",
+      "offset": [
+        -40,
+        -104
+      ],
+      "bytes": 5524,
+      "sha256": "6ef57e527a0e2e27ae1562d7784b50f8f8f5d21af9e5bd4f397b008964c30154",
+      "decoded_cache_bytes": 43260
+    },
+    {
+      "name": "Robot_tend_2",
+      "width": 112,
+      "height": 114,
+      "stride": 56,
+      "format": "I4",
+      "offset": [
+        -43,
+        -112
+      ],
+      "bytes": 6448,
+      "sha256": "cf04489dbc0c76628de0c566afddca767c4b9a928354c316b9929c97cc358a24",
+      "decoded_cache_bytes": 51072
+    },
+    {
+      "name": "Robot_tend_3",
+      "width": 85,
+      "height": 113,
+      "stride": 44,
+      "format": "I4",
+      "offset": [
+        -39,
+        -112
+      ],
+      "bytes": 5036,
+      "sha256": "2cca7780c8fcbf900370d5cc2f5a29a0f5a7990451a64451d21f5dee7b89cc32",
+      "decoded_cache_bytes": 38420
+    },
+    {
+      "name": "Robot_water_0",
+      "width": 120,
+      "height": 117,
+      "stride": 60,
+      "format": "I4",
+      "offset": [
+        -43,
+        -116
+      ],
+      "bytes": 7084,
+      "sha256": "68fa93f6f05aac913562cb5285b762a59d4b784ca9b6ba71527dead09d74f6be",
+      "decoded_cache_bytes": 56160
+    },
+    {
+      "name": "Robot_water_1",
+      "width": 105,
+      "height": 116,
+      "stride": 56,
+      "format": "I4",
+      "offset": [
+        -35,
+        -115
+      ],
+      "bytes": 6560,
+      "sha256": "893af096504f34fc026221cfb980a45a93e9857bac316bbc485f39ec48dc6559",
+      "decoded_cache_bytes": 48720
+    },
+    {
+      "name": "Robot_water_2",
+      "width": 112,
+      "height": 107,
+      "stride": 56,
+      "format": "I4",
+      "offset": [
+        -38,
+        -106
+      ],
+      "bytes": 6056,
+      "sha256": "b79400edead7bb81679b49aaf9db220be4de9af1e9cf092f0006f3120adb3a92",
+      "decoded_cache_bytes": 47936
+    },
+    {
+      "name": "Robot_water_3",
+      "width": 84,
+      "height": 112,
+      "stride": 44,
+      "format": "I4",
+      "offset": [
+        -37,
+        -110
+      ],
+      "bytes": 4992,
+      "sha256": "2f85ce530b3afdc34baf5b9d192a60f474796a8d35927d47abc2da21516a9355",
+      "decoded_cache_bytes": 37632
+    },
+    {
+      "name": "Robot_rest_0",
+      "width": 91,
+      "height": 99,
+      "stride": 48,
+      "format": "I4",
+      "offset": [
+        -38,
+        -97
+      ],
+      "bytes": 4816,
+      "sha256": "55d5712ad06c02782e04279581938c67eb6a2a1700617764394974817264be0f",
+      "decoded_cache_bytes": 36036
+    },
+    {
+      "name": "Robot_rest_1",
+      "width": 86,
+      "height": 95,
+      "stride": 44,
+      "format": "I4",
+      "offset": [
+        -37,
+        -92
+      ],
+      "bytes": 4244,
+      "sha256": "4a691268469d537845f1dd782fce2cc068fec1be662e44fcf17eff07b9d4931f",
+      "decoded_cache_bytes": 32680
+    },
+    {
+      "name": "Robot_rest_2",
+      "width": 87,
+      "height": 93,
+      "stride": 44,
+      "format": "I4",
+      "offset": [
+        -39,
+        -91
+      ],
+      "bytes": 4156,
+      "sha256": "f6f24b017500cee3b0f6426febab97bdbffc1f74de0f9ac7f395fc289329c1cf",
+      "decoded_cache_bytes": 32364
+    },
+    {
+      "name": "Robot_rest_3",
+      "width": 83,
+      "height": 96,
+      "stride": 44,
+      "format": "I4",
+      "offset": [
+        -37,
+        -94
+      ],
+      "bytes": 4288,
+      "sha256": "57a194cdb5da8ec1b2476f58eb3737bfb64e418e6e4728325c7febc0462cbb9d",
+      "decoded_cache_bytes": 31872
+    },
+    {
+      "name": "Robot_communicate_0",
+      "width": 85,
+      "height": 117,
+      "stride": 44,
+      "format": "I4",
+      "offset": [
+        -37,
+        -115
+      ],
+      "bytes": 5212,
+      "sha256": "07e6364274c5d1da4392e55fc58858e2bafe659d9f5ae9c082a43e26ea11d877",
+      "decoded_cache_bytes": 39780
+    },
+    {
+      "name": "Robot_communicate_1",
+      "width": 95,
+      "height": 114,
+      "stride": 48,
+      "format": "I4",
+      "offset": [
+        -37,
+        -112
+      ],
+      "bytes": 5536,
+      "sha256": "3832fb96ce8c31e4c06be9ea39ff61c29112535a05d36cade2eb1fec92d8e063",
+      "decoded_cache_bytes": 43320
+    },
+    {
+      "name": "Robot_communicate_2",
+      "width": 98,
+      "height": 112,
+      "stride": 52,
+      "format": "I4",
+      "offset": [
+        -39,
+        -110
+      ],
+      "bytes": 5888,
+      "sha256": "fde6fda35c87e424a2fc30db6bd8117cf885cab446ab91e3546f4ab0bd0e6d24",
+      "decoded_cache_bytes": 43904
+    },
+    {
+      "name": "Robot_communicate_3",
+      "width": 82,
+      "height": 113,
+      "stride": 44,
+      "format": "I4",
+      "offset": [
+        -38,
+        -111
+      ],
+      "bytes": 5036,
+      "sha256": "66c41a729a02810f7aa69242ea919f422e40c35182bc76422e636f453360f719",
+      "decoded_cache_bytes": 37064
+    },
+    {
+      "name": "Robot_walk_left_0",
+      "width": 87,
+      "height": 115,
+      "stride": 44,
+      "format": "I4",
+      "offset": [
+        -35,
+        -113
+      ],
+      "bytes": 5124,
+      "sha256": "1477bf3c3480f5ec3b659b23000745ea37b941736ff7c221763f868b6c71c88b",
+      "decoded_cache_bytes": 40020
+    },
+    {
+      "name": "Robot_walk_left_1",
+      "width": 84,
+      "height": 114,
+      "stride": 44,
+      "format": "I4",
+      "offset": [
+        -31,
+        -114
+      ],
+      "bytes": 5080,
+      "sha256": "0a19221a6eb200d9ffbe07b5bd981eca6dca7cd07c4de5e3ceaec5c84a87d1da",
+      "decoded_cache_bytes": 38304
+    },
+    {
+      "name": "Robot_walk_left_2",
+      "width": 86,
+      "height": 111,
+      "stride": 44,
+      "format": "I4",
+      "offset": [
+        -34,
+        -112
+      ],
+      "bytes": 4948,
+      "sha256": "9df85ef170a5085a9709f9508dc9e9140c804b9b7cc91723b6af1437ba54e739",
+      "decoded_cache_bytes": 38184
+    },
+    {
+      "name": "Robot_walk_left_3",
+      "width": 94,
+      "height": 111,
+      "stride": 48,
+      "format": "I4",
+      "offset": [
+        -44,
+        -113
+      ],
+      "bytes": 5392,
+      "sha256": "7ce5d367322b56e3a24da19e1ac48ba337ccbc3c809e96a50851352d6f78d95c",
+      "decoded_cache_bytes": 41736
+    },
+    {
+      "name": "Icon_water",
+      "width": 24,
+      "height": 24,
+      "stride": 12,
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "bytes": 352,
+      "sha256": "07641e43837a534958770599de2f5bd65902edf9216d6bd561d5457b8ad1addb",
+      "decoded_cache_bytes": 2304
+    },
+    {
+      "name": "Icon_energy",
+      "width": 24,
+      "height": 24,
+      "stride": 12,
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "bytes": 352,
+      "sha256": "3b70ebdeaa7daabd718affec88d6ab695206c2d40690bc9d1f3083b87f3819d8",
+      "decoded_cache_bytes": 2304
+    },
+    {
+      "name": "Icon_fiber",
+      "width": 24,
+      "height": 24,
+      "stride": 12,
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "bytes": 352,
+      "sha256": "1e4a44972d6272584da8d32824ef8d79281ff8af3260714debf9d1ec3d2dc070",
+      "decoded_cache_bytes": 2304
+    },
+    {
+      "name": "Icon_dew",
+      "width": 20,
+      "height": 20,
+      "stride": 12,
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "bytes": 304,
+      "sha256": "aee5aceb29f3085ca0eeebb93b7f7d7357c4a7937e3018da14136ad204f9ce74",
+      "decoded_cache_bytes": 1600
+    },
+    {
+      "name": "Icon_chat",
+      "width": 42,
+      "height": 42,
+      "stride": 24,
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "bytes": 1072,
+      "sha256": "f4d3fc70c9055995e4bb669f07ad1e2e4f91476e5b4bd914edd877542c8db1b9",
+      "decoded_cache_bytes": 7056
+    },
+    {
+      "name": "Icon_journal",
+      "width": 38,
+      "height": 38,
+      "stride": 20,
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "bytes": 824,
+      "sha256": "451634efc619821156e074680e2cfcc1157c180558f991c7c0a3640d888279f1",
+      "decoded_cache_bytes": 5776
+    },
+    {
+      "name": "Icon_tree",
+      "width": 20,
+      "height": 20,
+      "stride": 12,
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "bytes": 304,
+      "sha256": "e9a95b905663af7ddddcdfb54a56631c4495e22e4713c78b1b19a2e7c087730f",
+      "decoded_cache_bytes": 1600
+    },
+    {
+      "name": "Icon_demo",
+      "width": 20,
+      "height": 20,
+      "stride": 12,
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "bytes": 304,
+      "sha256": "f9b5ea192de4ee1ab350e5e3d53467c187defad68f7bdacb419c0fc8987218c0",
+      "decoded_cache_bytes": 1600
+    },
+    {
+      "name": "Icon_ready",
+      "width": 20,
+      "height": 20,
+      "stride": 12,
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "bytes": 304,
+      "sha256": "f0d802afcc99b3899a5f656f29d9a1a8fbfe30076e6a702dea96ec1a871a59c4",
+      "decoded_cache_bytes": 1600
+    },
+    {
+      "name": "Icon_low_water",
+      "width": 20,
+      "height": 20,
+      "stride": 12,
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "bytes": 304,
+      "sha256": "1f6291ff831a36ba26e39b2171881018012cb00c13478082207acc934113fb84",
+      "decoded_cache_bytes": 1600
+    },
+    {
+      "name": "Icon_low_energy",
+      "width": 20,
+      "height": 20,
+      "stride": 12,
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "bytes": 304,
+      "sha256": "e19390e3c8fb3741c4c567ad3150f7a5e1a09b6b2f8e5ae3a9b357b14236da50",
+      "decoded_cache_bytes": 1600
+    },
+    {
+      "name": "Icon_building",
+      "width": 20,
+      "height": 20,
+      "stride": 12,
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "bytes": 304,
+      "sha256": "7c559effc8ce0835b2a2cc911c733b5c479cc5e61462ff01dfff99b2c700f9fe",
+      "decoded_cache_bytes": 1600
+    },
+    {
+      "name": "Icon_shake",
+      "width": 20,
+      "height": 20,
+      "stride": 12,
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "bytes": 304,
+      "sha256": "2595e2c42c50ca7ad67ddb581e1943c2927bf05c80e7016a02fd7dea5f10c7a8",
+      "decoded_cache_bytes": 1600
+    },
+    {
+      "name": "Icon_neutral",
+      "width": 20,
+      "height": 20,
+      "stride": 12,
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "bytes": 304,
+      "sha256": "7c68fe25a8c562f2cc32f7a7fb8c668e350dc8cfc5d59d7fa9071bc3c2cfe6df",
+      "decoded_cache_bytes": 1600
+    },
+    {
+      "name": "Icon_tilt_left",
+      "width": 20,
+      "height": 20,
+      "stride": 12,
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "bytes": 304,
+      "sha256": "d823c8fb3341db6a3be26a1480401d6e5ffac642cbea60b335a5af564c51d6d7",
+      "decoded_cache_bytes": 1600
+    },
+    {
+      "name": "Icon_tilt_right",
+      "width": 20,
+      "height": 20,
+      "stride": 12,
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "bytes": 304,
+      "sha256": "a39f082d7d46c540fa8ef4bdc851ec6e568ea9723838f1249a818adf19dbaa27",
+      "decoded_cache_bytes": 1600
+    },
+    {
+      "name": "Icon_muted",
+      "width": 20,
+      "height": 20,
+      "stride": 12,
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "bytes": 304,
+      "sha256": "fd6c527319d6bd65e3b0037441875fcdb7b7e14765d76439c03d4676c2e5bd40",
+      "decoded_cache_bytes": 1600
+    },
+    {
+      "name": "Icon_unread",
+      "width": 20,
+      "height": 20,
+      "stride": 12,
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "bytes": 304,
+      "sha256": "3be4040f95359aed5492d3bc8f6631f0c332121c626afb24d19f6526153a208b",
+      "decoded_cache_bytes": 1600
+    },
+    {
+      "name": "Icon_sparkle",
+      "width": 20,
+      "height": 20,
+      "stride": 12,
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "bytes": 304,
+      "sha256": "491076587c664a83781213cc5544c468f1303bd8156be7e4c17d2610a7c50279",
+      "decoded_cache_bytes": 1600
+    },
+    {
+      "name": "Icon_leaf",
+      "width": 20,
+      "height": 20,
+      "stride": 12,
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "bytes": 304,
+      "sha256": "1bf6829c658565689f9b2b6a45ed29f536086227e71010122d69eae8e34614f5",
+      "decoded_cache_bytes": 1600
+    },
+    {
+      "name": "Prop_planter",
+      "width": 32,
+      "height": 32,
+      "stride": 16,
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "bytes": 576,
+      "sha256": "0d76e58cabe906e066f38ef7eb1b6dda94550941ffe51fc7fdf2f77606f829bf",
+      "decoded_cache_bytes": 4096
+    },
+    {
+      "name": "Prop_soil",
+      "width": 32,
+      "height": 32,
+      "stride": 16,
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "bytes": 576,
+      "sha256": "0fbfa02120825c72da03e46ab9b945befa0d08e7eb7e36e179e387a21eac4cc1",
+      "decoded_cache_bytes": 4096
+    },
+    {
+      "name": "Prop_bench",
+      "width": 32,
+      "height": 32,
+      "stride": 16,
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "bytes": 576,
+      "sha256": "3b3d270770759b9fba39634d9b5c3f91fb3e0fb7d3284c269d4af9959cfaa688",
+      "decoded_cache_bytes": 4096
+    },
+    {
+      "name": "Prop_crates",
+      "width": 32,
+      "height": 32,
+      "stride": 16,
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "bytes": 576,
+      "sha256": "407055927a057cbdafc9b9312c35d5da4533787a165a0eeff9439b830c7214b6",
+      "decoded_cache_bytes": 4096
+    },
+    {
+      "name": "Prop_watering_can",
+      "width": 32,
+      "height": 32,
+      "stride": 16,
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "bytes": 576,
+      "sha256": "87bd1663ce843785e20469785fef9d1ed494a35f26726332de1ebeb0e0887d81",
+      "decoded_cache_bytes": 4096
+    },
+    {
+      "name": "Prop_trowel",
+      "width": 32,
+      "height": 32,
+      "stride": 16,
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "bytes": 576,
+      "sha256": "7f8052d957b6ed7054848b59646553c2dc8af5833f5b158283e6d30649680c9c",
+      "decoded_cache_bytes": 4096
+    },
+    {
+      "name": "Prop_ivy",
+      "width": 30,
+      "height": 45,
+      "stride": 16,
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "bytes": 784,
+      "sha256": "f01f05b082c88d2207eb0312876c17c099129f7703cefbf5744fc8b9cd97be2c",
+      "decoded_cache_bytes": 5400
+    },
+    {
+      "name": "Prop_moss",
+      "width": 57,
+      "height": 25,
+      "stride": 32,
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "bytes": 864,
+      "sha256": "2d450803a5f3cf568990b2747e707804cd7acd98d2f112938a6125a682565ecc",
+      "decoded_cache_bytes": 5700
+    },
+    {
+      "name": "Prop_lamp",
+      "width": 24,
+      "height": 34,
+      "stride": 12,
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "bytes": 472,
+      "sha256": "4877de5c69fbcc57d98317dea208ec585b5319818df463900b7d232b17c7e0d1",
+      "decoded_cache_bytes": 3264
+    },
+    {
+      "name": "Drought",
+      "width": 96,
+      "height": 96,
+      "stride": 192,
+      "format": "RGB565",
+      "offset": [
+        0,
+        0
+      ],
+      "bytes": 18432,
+      "sha256": "3ca3a0eba8228d62296edd9888348412ca97d1ed489a5e647d0e754c7ac1b612",
+      "decoded_cache_bytes": 0
+    },
+    {
+      "name": "TreeCanopy",
+      "format": "I8",
+      "offset": [
+        -450,
+        -408
+      ],
+      "width": 480,
+      "height": 408,
+      "stride": 480,
+      "bytes": 196864,
+      "sha256": "12050f2aa8036b85c46e59b6ddad5185e75554e15cc9bd25d335b22e38a6a2c2",
+      "decoded_cache_bytes": 783360
+    },
+    {
+      "name": "Plant_travelbean_seedling",
+      "format": "I4",
+      "offset": [
+        -25,
+        -30
+      ],
+      "width": 49,
+      "height": 30,
+      "stride": 28,
+      "bytes": 904,
+      "sha256": "78bce5ad99807aa165332274d1d176a599fff5347a63700ef031f254bb92afed",
+      "decoded_cache_bytes": 5880
+    },
+    {
+      "name": "Plant_travelbean_growing",
+      "format": "I4",
+      "offset": [
+        -33,
+        -65
+      ],
+      "width": 65,
+      "height": 65,
+      "stride": 36,
+      "bytes": 2404,
+      "sha256": "dbcd20ad6647d82f56b4405368923f0e0a7968360a7128068784abd52e16e01b",
+      "decoded_cache_bytes": 16900
+    },
+    {
+      "name": "Plant_travelbean_mature",
+      "format": "I4",
+      "offset": [
+        -33,
+        -65
+      ],
+      "width": 65,
+      "height": 65,
+      "stride": 36,
+      "bytes": 2404,
+      "sha256": "3ed9f1c6be141a42a50dcf9f94f5e5f941da8922297584c07bb07d7c0bfbce3f",
+      "decoded_cache_bytes": 16900
+    },
+    {
+      "name": "Facility_tank",
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "width": 43,
+      "height": 42,
+      "stride": 24,
+      "bytes": 1072,
+      "sha256": "54aa8ca8e30be478a611994352f180d194ad610a7b0d6d8da3f14d9a2146c412",
+      "decoded_cache_bytes": 7224
+    },
+    {
+      "name": "Facility_rain",
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "width": 33,
+      "height": 42,
+      "stride": 20,
+      "bytes": 904,
+      "sha256": "141d12660803f47384f4fe2a2e8c9a1c9aa96ba9eb05347f43d330d597dc6727",
+      "decoded_cache_bytes": 5544
+    },
+    {
+      "name": "Facility_solar",
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "width": 50,
+      "height": 39,
+      "stride": 28,
+      "bytes": 1156,
+      "sha256": "a59cf3bd4857c06ccd2380c87fd8a3144dead54d5278ed7bda127e18d144aff2",
+      "decoded_cache_bytes": 7800
+    },
+    {
+      "name": "Facility_battery",
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "width": 50,
+      "height": 36,
+      "stride": 28,
+      "bytes": 1072,
+      "sha256": "ead829ff93774d79ed9d4234ce9d9774ec66a3c866153b54783c7575933f49a0",
+      "decoded_cache_bytes": 7200
+    },
+    {
+      "name": "Facility_nursery",
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "width": 37,
+      "height": 42,
+      "stride": 20,
+      "bytes": 904,
+      "sha256": "db6cb8240e442e24e371f03f19a9c3770bf81cd3684adcf47cc2fcb88dd305a7",
+      "decoded_cache_bytes": 6216
+    },
+    {
+      "name": "Facility_bench",
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "width": 39,
+      "height": 42,
+      "stride": 20,
+      "bytes": 904,
+      "sha256": "f04158bcf9482c1c41b5d0b3859fe0626f2ee84be706b2b25ad0953a88c7aec0",
+      "decoded_cache_bytes": 6552
+    },
+    {
+      "name": "Facility_care",
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "width": 43,
+      "height": 42,
+      "stride": 24,
+      "bytes": 1072,
+      "sha256": "b884fd98c140dec51744ab3afd10f7b30eeedfa2d778e0a6ecbfc440591208ae",
+      "decoded_cache_bytes": 7224
+    },
+    {
+      "name": "Facility_nest",
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "width": 38,
+      "height": 42,
+      "stride": 20,
+      "bytes": 904,
+      "sha256": "ee4fb3d11d47490863855bfc6e799028fec8f35c9e9a608fa5a00c2048468340",
+      "decoded_cache_bytes": 6384
+    },
+    {
+      "name": "Animal_bird",
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "width": 31,
+      "height": 23,
+      "stride": 16,
+      "bytes": 432,
+      "sha256": "bb1e8d72cd735364e67b2858ca8ef4ec4160a0782354b5f6551e54560baf0dc4",
+      "decoded_cache_bytes": 2852
+    },
+    {
+      "name": "Animal_mouse",
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "width": 31,
+      "height": 19,
+      "stride": 16,
+      "bytes": 368,
+      "sha256": "7e6ad31823ce0e09b3c7d2cc62f4ad06a595f0cb5b3f3844457023e7582445ff",
+      "decoded_cache_bytes": 2356
+    },
+    {
+      "name": "Icon_food",
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "width": 24,
+      "height": 21,
+      "stride": 12,
+      "bytes": 316,
+      "sha256": "a366d3b6e4583720b7bdbc0fbeebbe0d5ad2d80e00403a8c6726c31b62ac3430",
+      "decoded_cache_bytes": 2016
+    },
+    {
+      "name": "Icon_parts",
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "width": 24,
+      "height": 18,
+      "stride": 12,
+      "bytes": 280,
+      "sha256": "0bf42b9298e0645f40bb14e1629d76adfd851346f12d52049db31da520c2ec8e",
+      "decoded_cache_bytes": 1728
+    },
+    {
+      "name": "Planter",
+      "format": "I4",
+      "offset": [
+        0,
+        0
+      ],
+      "width": 64,
+      "height": 35,
+      "stride": 32,
+      "bytes": 1184,
+      "sha256": "b02183b43393d34d71d748fe10eb61a148f44af055bc55e968b8c293eb140234",
+      "decoded_cache_bytes": 8960
+    }
+  ],
+  "baked_top_hud": false,
+  "runtime_window_band": [
+    0,
+    204,
+    480,
+    90
+  ],
+  "layout": "economy-v1 fixed slots and eight facility overlays"
+}

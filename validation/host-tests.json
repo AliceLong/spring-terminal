@@ -1,0 +1,310 @@
+{
+  "tests": [
+    {
+      "name": "compile-agency_flow_runner",
+      "passed": true,
+      "seconds": 1.15
+    },
+    {
+      "name": "agency_flow_runner",
+      "passed": true,
+      "seconds": 0.87
+    },
+    {
+      "name": "compile-agency_test",
+      "passed": true,
+      "seconds": 0.84
+    },
+    {
+      "name": "agency_test",
+      "passed": true,
+      "seconds": 2.19
+    },
+    {
+      "name": "compile-chapters12_test",
+      "passed": true,
+      "seconds": 1.02
+    },
+    {
+      "name": "chapters12_test",
+      "passed": true,
+      "seconds": 0.45
+    },
+    {
+      "name": "compile-character_test",
+      "passed": true,
+      "seconds": 1.05
+    },
+    {
+      "name": "character_test",
+      "passed": true,
+      "seconds": 2.62
+    },
+    {
+      "name": "compile-collection_test",
+      "passed": true,
+      "seconds": 0.33
+    },
+    {
+      "name": "collection_test",
+      "passed": true,
+      "seconds": 3.39
+    },
+    {
+      "name": "compile-communication_route_test",
+      "passed": true,
+      "seconds": 0.66
+    },
+    {
+      "name": "communication_route_test",
+      "passed": true,
+      "seconds": 0.78
+    },
+    {
+      "name": "compile-core_test",
+      "passed": true,
+      "seconds": 0.73
+    },
+    {
+      "name": "core_test",
+      "passed": true,
+      "seconds": 2.11
+    },
+    {
+      "name": "compile-economy_test",
+      "passed": true,
+      "seconds": 0.67
+    },
+    {
+      "name": "economy_test",
+      "passed": true,
+      "seconds": 0.87
+    },
+    {
+      "name": "compile-economy_v3_test",
+      "passed": true,
+      "seconds": 0.7
+    },
+    {
+      "name": "economy_v3_test",
+      "passed": true,
+      "seconds": 0.53
+    },
+    {
+      "name": "compile-gardener_test",
+      "passed": true,
+      "seconds": 0.63
+    },
+    {
+      "name": "gardener_test",
+      "passed": true,
+      "seconds": 0.33
+    },
+    {
+      "name": "compile-life_art_test",
+      "passed": true,
+      "seconds": 0.44
+    },
+    {
+      "name": "life_art_test",
+      "passed": true,
+      "seconds": 0.35
+    },
+    {
+      "name": "compile-life_invitation_test",
+      "passed": true,
+      "seconds": 0.78
+    },
+    {
+      "name": "life_invitation_test",
+      "passed": true,
+      "seconds": 0.34
+    },
+    {
+      "name": "compile-life_test",
+      "passed": true,
+      "seconds": 0.84
+    },
+    {
+      "name": "life_test",
+      "passed": true,
+      "seconds": 0.69
+    },
+    {
+      "name": "compile-memory_test",
+      "passed": true,
+      "seconds": 0.73
+    },
+    {
+      "name": "memory_test",
+      "passed": true,
+      "seconds": 0.44
+    },
+    {
+      "name": "compile-mind_device_test",
+      "passed": true,
+      "seconds": 0.54
+    },
+    {
+      "name": "mind_device_test",
+      "passed": true,
+      "seconds": 0.34
+    },
+    {
+      "name": "compile-monitor_test",
+      "passed": true,
+      "seconds": 0.62
+    },
+    {
+      "name": "monitor_test",
+      "passed": true,
+      "seconds": 0.43
+    },
+    {
+      "name": "compile-plant_action_test",
+      "passed": true,
+      "seconds": 0.85
+    },
+    {
+      "name": "plant_action_test",
+      "passed": true,
+      "seconds": 0.38
+    },
+    {
+      "name": "compile-playback_probe_test",
+      "passed": true,
+      "seconds": 0.3
+    },
+    {
+      "name": "playback_probe_test",
+      "passed": true,
+      "seconds": 0.34
+    },
+    {
+      "name": "compile-roadshow_test",
+      "passed": true,
+      "seconds": 0.89
+    },
+    {
+      "name": "roadshow_test",
+      "passed": true,
+      "seconds": 0.37
+    },
+    {
+      "name": "compile-scene_input_test",
+      "passed": true,
+      "seconds": 0.4
+    },
+    {
+      "name": "scene_input_test",
+      "passed": true,
+      "seconds": 0.65
+    },
+    {
+      "name": "compile-scenery_test",
+      "passed": true,
+      "seconds": 0.39
+    },
+    {
+      "name": "scenery_test",
+      "passed": true,
+      "seconds": 0.79
+    },
+    {
+      "name": "compile-schedule_test",
+      "passed": true,
+      "seconds": 0.95
+    },
+    {
+      "name": "schedule_test",
+      "passed": true,
+      "seconds": 3.08
+    },
+    {
+      "name": "compile-social_test",
+      "passed": true,
+      "seconds": 0.55
+    },
+    {
+      "name": "social_test",
+      "passed": true,
+      "seconds": 0.17
+    },
+    {
+      "name": "compile-story_cursor_test",
+      "passed": true,
+      "seconds": 0.65
+    },
+    {
+      "name": "story_cursor_test",
+      "passed": true,
+      "seconds": 0.34
+    },
+    {
+      "name": "compile-story_flow_test",
+      "passed": true,
+      "seconds": 1.05
+    },
+    {
+      "name": "story_flow_test",
+      "passed": true,
+      "seconds": 1.17
+    },
+    {
+      "name": "compile-story_test",
+      "passed": true,
+      "seconds": 0.61
+    },
+    {
+      "name": "story_test",
+      "passed": true,
+      "seconds": 0.32
+    },
+    {
+      "name": "compile-tool_payload_test",
+      "passed": true,
+      "seconds": 0.73
+    },
+    {
+      "name": "tool_payload_test",
+      "passed": true,
+      "seconds": 3.01
+    },
+    {
+      "name": "monitor-python",
+      "passed": true,
+      "seconds": 3.72
+    },
+    {
+      "name": "mind-python",
+      "passed": true,
+      "seconds": 0.73
+    },
+    {
+      "name": "syntax-app.js",
+      "passed": true,
+      "seconds": 0.16
+    },
+    {
+      "name": "syntax-memory.js",
+      "passed": true,
+      "seconds": 0.03
+    },
+    {
+      "name": "syntax-roadshow.js",
+      "passed": true,
+      "seconds": 0.03
+    },
+    {
+      "name": "roadshow-reply-js",
+      "passed": true,
+      "seconds": 0.04
+    }
+  ],
+  "passed": true,
+  "physical_hardware_tested": false,
+  "live_cloud_model_tested": false,
+  "excluded_tests": [
+    "migration_test.cc, full_save_test.cc and life_migration_test.cc require private legacy-device save input, intentionally not distributed"
+  ]
+}

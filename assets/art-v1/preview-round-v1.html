@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>终点站是春天 · 素材首版</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#eee8db;color:#253b32;font-family:system-ui,-apple-system,"PingFang SC",sans-serif}main{max-width:1140px;margin:auto;padding:30px 28px}small{letter-spacing:.16em;color:#7b8068}h1{font-size:30px;margin:8px 0}p{color:#627162;line-height:1.65;margin:8px 0 20px}.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:20px 0}button,select{font:inherit;color:#304638;border:1px solid #b5bba4;background:#fff9ed;border-radius:12px;padding:10px 15px;cursor:pointer}button:hover{background:#dedfc5}.stages{display:grid;grid-template-columns:1fr 1fr;gap:32px}.stage{text-align:center}.stage canvas{width:100%;max-width:480px;border-radius:50%;box-shadow:0 12px 40px #30402f30;background:#243c32}.stage h2{font-size:18px;margin:16px 0 6px}.hint{font-size:13px;color:#7b8068}.gallery{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:24px}.asset{display:block;text-decoration:none;color:inherit;background:#faf6ec;border-radius:14px;overflow:hidden;border:1px solid #d5d7c5}.asset img{display:block;width:100%;height:135px;object-fit:contain;background:repeating-conic-gradient(#dce0d5 0 25%,#f3f3ec 0 50%) 0/16px 16px}.asset span{display:block;font-size:13px;padding:10px}.footer{font-size:13px;margin-top:22px}#status{font-size:13px} @media(max-width:720px){main{padding:20px}.stages{grid-template-columns:1fr}.gallery{grid-template-columns:repeat(2,1fr)}}
+</style>
+<main><small>终点站是春天 / ART V1</small><h1>旧车厢里的新生命</h1><p>素材组合预览 · 非设备实时画面。两幅画面复用同一套车厢，通过植物、大树和装饰表现成长。</p>
+<div class="controls"><label>园丁动作 <select id="action"><option value="idle">待机</option><option value="walk">行走</option><option value="tend">照料与收获</option><option value="water">浇水</option><option value="rest">休息</option><option value="communicate">通讯回应</option></select></label><button id="pause">暂停动画</button><button data-dew="-1">露珠向左</button><button data-dew="1">露珠向右</button><button data-dew="0">露珠归位</button><span id="status">正在载入素材…</span></div>
+<div class="stages"><section class="stage"><canvas id="initial" width="480" height="480" aria-label="初期圆屏素材组合"></canvas><h2>初期 · 三个种植位与小树</h2><div class="hint">幼苗、旧陈设、待照料的车厢</div></section><section class="stage"><canvas id="grown" width="480" height="480" aria-label="成长圆屏素材组合"></canvas><h2>成长 · 成熟植物与新树冠</h2><div class="hint">同一车厢叠加成长状态，露珠独立移动</div></section></div>
+<p class="footer">下方为原始素材，可点击查看完整 PNG。机器人图集为 4 列 × 6 行；植物为 3 列 × 3 行。动画锚点、画面大小和循环接缝仍需设备接入验证。</p><div class="gallery" id="gallery"></div></main>
+<script src="catalog-data.js"></script><script>
+const M=window.ART_MANIFEST, images={}, selected=document.querySelector('#action');
+let playing=true, savedTime=0, started=performance.now(), dewDirection=0, dewStarted=0;
+document.querySelector('#pause').onclick=e=>{if(playing)savedTime=performance.now()-started;else started=performance.now()-savedTime;playing=!playing;e.target.textContent=playing?'暂停动画':'继续动画'};
+document.querySelectorAll('[data-dew]').forEach(b=>b.onclick=()=>{dewDirection=Number(b.dataset.dew);dewStarted=performance.now()});
+const labels={'carriage-shell':'车厢结构与透明窗','landscape-far':'窗外远景','landscape-near':'窗外近景','floor-platform':'独立地板','robot-atlas':'园丁 · 六类动作','plants-atlas-dry':'三种植物 · 九个状态','tree-atlas':'两阶段大树','props-atlas':'陈设、工具与成长装饰','icons-atlas':'资源、交互与通讯图标','event-drought':'干旱旅途事件'};
+const order=Object.keys(labels);
+function sprite(ctx,name,region,x,y,w,h){const r=M.assets[name].regions[region];ctx.drawImage(images[name],...r,x,y,w,h)}
+function anchored(ctx,name,region,cx,baseline,scale){const a=M.assets[name],r=a.regions[region],p=a.anchors[region];ctx.drawImage(images[name],...r,cx+(r[0]-p[0])*scale,baseline+(r[1]-p[1])*scale,r[2]*scale,r[3]*scale)}
+function draw(canvas,grown,t){const c=canvas.getContext('2d');c.clearRect(0,0,480,480);c.save();c.beginPath();c.arc(240,240,240,0,Math.PI*2);c.clip();c.fillStyle='#263c32';c.fillRect(0,0,480,480);
+ c.save();c.beginPath();c.rect(0,140,480,172);c.clip();
+ const offset=(t*.006)%640;for(let i=-1;i<2;i++)c.drawImage(images['landscape-far'],i*640-offset,120,640,240);
+ const n=(t*.014)%640;for(let i=-1;i<2;i++)c.drawImage(images['landscape-near'],i*640-n,83,640,220);c.restore();
+ c.drawImage(images['carriage-shell'],0,0,480,480);
+ c.drawImage(images['floor-platform'],16,279,2139,192,18,349,444,36);
+ sprite(c,'props-atlas','bench',52,306,56,44);sprite(c,'props-atlas','crates',401,307,40,38);
+ if(grown){c.drawImage(images['tree-atlas'],742,10,1016,849,342,228,132,120);sprite(c,'props-atlas','ivy',82,151,34,51);sprite(c,'props-atlas','ivy',370,150,31,44);sprite(c,'props-atlas','moss',363,337,65,28)}
+ else c.drawImage(images['tree-atlas'],265,343,420,520,377,280,53,68);
+ const kinds=['tracklight','dewmoss','patchvine'];for(let i=0;i<3;i++){let x=112+i*83;sprite(c,'props-atlas','planter',x-5,314,75,43);sprite(c,'props-atlas','soil',x+4,317,56,12);anchored(c,'plants-atlas-dry',kinds[i]+'_'+(grown?'mature':'seedling'),x+33,325,66/418)}
+ if(grown){const progress=dewDirection?Math.min(1,(performance.now()-dewStarted)/1800):0;const x=219+(dewDirection<0?-107:99)*progress;const y=280+Math.sin(progress*Math.PI)*24+progress*35;sprite(c,'icons-atlas','dew',x,y,22,23)}
+ let action=selected.value;const a=M.animations[action];const frame=Math.floor(t/1000*a.fps)%4;let rx=147;if(action==='walk')rx=132+Math.sin(t/1800)*43;let ry=286;if(action==='rest'&&grown)rx=350;
+ anchored(c,'robot-atlas',action+'_'+frame,rx+41.5,369,83/256);
+ const gradient=c.createLinearGradient(0,0,0,138);gradient.addColorStop(0,'#142b25');gradient.addColorStop(1,'#213a2e00');c.fillStyle=gradient;c.fillRect(0,0,480,138);
+ c.textAlign='center';c.fillStyle='#f5e8c8';c.font='600 21px system-ui';c.fillText('终点站是春天',240,60);c.font='14px system-ui';c.fillStyle='#d8d6b3';c.fillText('水 · 能源 · 藤纤维',240,89);
+ c.font='13px system-ui';c.fillStyle='#e8e2c9';c.fillText(grown?'园丁在新叶下休息':'列车正在驶向春天',240,117);
+ const bx=[91,169,247,325], title=['聊聊','日志','大树','长按'];for(let i=0;i<4;i++){c.fillStyle='#314d3deb';c.beginPath();c.roundRect(bx[i],389,65,39,11);c.fill();c.fillStyle='#f3e8cd';c.font='14px system-ui';c.fillText(title[i],bx[i]+32.5,414)}
+ c.fillStyle='#f6ce76';c.beginPath();c.arc(382,88,4+Math.sin(t/350),0,Math.PI*2);c.fill();c.restore();}
+function tick(now){let t=playing?now-started:savedTime;draw(document.querySelector('#initial'),false,t);draw(document.querySelector('#grown'),true,t);requestAnimationFrame(tick)}
+Promise.all(order.map(name=>new Promise((resolve,reject)=>{const img=new Image();img.onload=()=>{images[name]=img;resolve()};img.onerror=()=>reject(new Error('无法读取 '+name));img.src=M.assets[name].file;const link=document.createElement('a');link.className='asset';link.href=img.src;link.target='_blank';const thumb=new Image();thumb.src=img.src;const label=document.createElement('span');label.textContent=labels[name];link.append(thumb,label);document.querySelector('#gallery').append(link)}))).then(()=>{document.querySelector('#status').textContent='10 张母版已载入';window.previewReady=true;requestAnimationFrame(tick)}).catch(e=>{document.querySelector('#status').textContent=e.message;console.error(e)});
+</script></html>

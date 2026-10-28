@@ -1,0 +1,10 @@
+{
+  "scope": "isolated proposal math, not live game economy",
+  "cycle_seconds": 60,
+  "normal_auto_yield": 5,
+  "normal_manual_yield": 6,
+  "drought_factor": 0.5,
+  "maintenance_water_per_minute": 4,
+  "drought_minutes": 3,
+  "initial_water": 8
+}

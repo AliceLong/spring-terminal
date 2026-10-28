@@ -1,0 +1,50 @@
+{
+  "assets": [
+    {
+      "name": "wasteland_far",
+      "bytes": 9216,
+      "sha256": "c6c125fdb243919f077459b2581a9e9ade4039e54e695aeb5b6c3c30143bec70"
+    },
+    {
+      "name": "wasteland_near",
+      "bytes": 6016,
+      "sha256": "55d4015e39ec5966de28c95c6f881f3793f27019a1f142e8adcf2f57e501dc1a"
+    },
+    {
+      "name": "rain_city_far",
+      "bytes": 9216,
+      "sha256": "8131d3816c4f24c9d4079456bc377528da5b372192ffbf87890e11c4214611dd"
+    },
+    {
+      "name": "rain_city_near",
+      "bytes": 6016,
+      "sha256": "d749d072906b76faf1808b019637f6edb5c87a327177e7287659c2a2824bd761"
+    },
+    {
+      "name": "tunnel_far",
+      "bytes": 9216,
+      "sha256": "aa1692a3e43c4e79e2b027177e5b4117941ff938f1e44074168327301378d44c"
+    },
+    {
+      "name": "tunnel_near",
+      "bytes": 6016,
+      "sha256": "304cc4945114a2dc2c887030f65c2b54b2dbd2293bbc9a891600affd36ce261f"
+    },
+    {
+      "name": "forest_far",
+      "bytes": 9216,
+      "sha256": "2f23fba3f785e6436de2fbae1e072ad5e2413f7bb24bb6ad0047a9f1d8492625"
+    },
+    {
+      "name": "forest_near",
+      "bytes": 6016,
+      "sha256": "ad90f71c6bcb5c5f0ec37c6575e1d7e0359db60ebda3c006388daefdcd639e35"
+    },
+    {
+      "name": "rack-occlusion-mask",
+      "bytes": 1908,
+      "sha256": "da6ceac48ef86cae9ca8c3186e69bac0975e527708459f4081fe98c383223561"
+    }
+  ],
+  "bytes": 62836
+}

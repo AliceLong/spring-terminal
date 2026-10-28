@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>花园车厢 · 园丁状态台</title><link rel="stylesheet" href="/style.css"><script defer src="/memory.js"></script><script defer src="/app.js"></script></head>
+<body><aside><a class="brand" href="#top">◈ 春天终端<span>花园车厢 / 只读观察</span></a><a href="http://127.0.0.1:8767/roadshow" target="_blank" rel="noopener">进入路演视图 ↗</a><nav id="nav"></nav><div class="aside-note">USB 直读 · 无 AI 描述<br>不发送游戏指令<br>不唤醒语音、不改动存档</div></aside>
+<main id="top"><header><div><p class="eyebrow">终点站是春天 / LIVE OBSERVATORY</p><h1>园丁正在怎样生活</h1><p class="intro">从世界事实到身体动作，查看 12 个模块的设备状态。</p></div><span class="pill" id="connection">等待设备</span></header>
+<section class="signal" aria-live="polite"><strong id="signal">等待首份完整状态</strong><span id="freshness">设备每约 5 秒发送一次，只在收到完整数据后更新。</span></section>
+<div class="metrics" id="metrics"></div>
+<div class="notice">12 个模块是逻辑职责，并非同时运行的 12 个模式。暂无独立字段的部分会明确标记；断线后保留的数值只是最后一次记录。</div>
+<section id="modules" class="modules"></section>
+<section class="archive" id="archive">
+<div class="archive-head"><h2>电脑事件档案</h2><a href="#module-7">返回经历概览</a></div>
+<p id="archive-status">等待设备记忆数据</p>
+<div class="archive-controls">
+<label>记录类型 <select id="archive-category">
+<option value="0">全部</option><option value="1">自主生活</option><option value="2">重要决策</option>
+<option value="3">世界事件</option><option value="4">玩家合作</option><option value="5">旧档与记录启用</option>
+</select></label>
+<label>决策链编号 <input id="archive-chain" type="number" min="0" max="4294967295" value="0"></label>
+<button id="archive-filter">查看</button><button id="archive-latest">回到最新</button>
+</div><div id="archive-list"></div><button id="archive-older" disabled>查看更早记录</button>
+<p class="hint">只归档电脑收到的真实事件，不补写缺失历史。离线超出保留窗口时显示缺失数量，长期里程碑独立保留。</p>
+</section><section class="raw"><details><summary>查看设备原始数据</summary><pre id="raw">暂无数据</pre></details></section>
+<footer>数据来源：当前连接的 ESP32 · 仅本机访问 · 页面不提供批准、建造、改种或资源修改功能</footer></main></body></html>

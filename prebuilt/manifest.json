@@ -1,0 +1,43 @@
+{
+  "built_from": "this submission source snapshot",
+  "chip": "esp32s3",
+  "board": "Waveshare ESP32-S3-Touch-AMOLED-2.16",
+  "idf": "v6.1",
+  "flash_size": "16MB",
+  "flash_mode": "dio",
+  "flash_frequency": "80m",
+  "partition": "partitions/v2/16m_spring_story.csv",
+  "physical_hardware_tested_in_this_packaging": false,
+  "files": [
+    {
+      "file": "bootloader.bin",
+      "offset": "0x0",
+      "bytes": 16784,
+      "sha256": "2bb206fb143899e4317a9c216a485dce69e6f853a305d3c96eb6345edbb7dbf8"
+    },
+    {
+      "file": "partition-table.bin",
+      "offset": "0x8000",
+      "bytes": 3072,
+      "sha256": "f93870060de1e769417aedcee13f2668ed063e4573e2978eba1520fa46dbbdc1"
+    },
+    {
+      "file": "ota_data_initial.bin",
+      "offset": "0xd000",
+      "bytes": 8192,
+      "sha256": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f"
+    },
+    {
+      "file": "xiaozhi.bin",
+      "offset": "0x20000",
+      "bytes": 4261120,
+      "sha256": "004e845e988b8eb7ce64716970e770bb55ef0375e8a1546bc7a2273def76e31a"
+    },
+    {
+      "file": "generated_assets.bin",
+      "offset": "0x900000",
+      "bytes": 2985801,
+      "sha256": "25fbcfb290baf9c1dcfffcedb95ac015322736abbbdbab248ecd96a898a91cb1"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>终点站是春天 · 路演终端</title><link rel="stylesheet" href="/roadshow.css"><script defer src="/roadshow.js"></script></head>
+<body>
+<header class="topbar"><a class="brand" href="/roadshow"><span class="brand-mark">✳</span><span>终点站是春天<small>一列开向春天的车，一个慢慢成为自己的园丁。</small></span></a><div class="top-actions"><span id="usb-status" class="status">等待实机</span><button id="notes-toggle" aria-expanded="false">讲解提示</button><a href="/terminal" target="_blank" rel="noopener">园丁终端 ↗</a><button id="fullscreen">全屏路演</button></div></header>
+<main>
+<section class="opening"><div><p class="eyebrow">A LITTLE GARDEN. A LIFE OF ITS OWN.</p><h1>陪伴，在真实生活里发生。</h1></div><p class="opening-note">实体交互 × 自主生活 × 长期记忆<br><span>路演实况 · 本机运行</span></p></section>
+<section class="scene-console" aria-label="实机情境控制"><div class="scene-heading"><strong>实机情境</strong><span id="save-mode">等待设备</span></div><label class="sr-only" for="scene-select">选择独立路演情境</label><select id="scene-select"><option value="1">初次相遇 · 第零位乘客</option><option value="2">共同劳动 · 语音照料与收获</option><option value="3">自主生活 · 今天不必工作</option><option value="4">旧日档案 · 优秀员工</option><option value="5">返程真相 · 那一次返程</option><option value="6">新叶分享 · 新的生长点</option><option value="8">第一章 · 干旱现场</option><option value="9">第一章 · 优秀员工档案</option><option value="10">第一章 · 档案后的观察</option><option value="11">第二章 · 乘客座椅的第一次邀请</option></select><button id="scene-load" disabled>载入 / 重置情境</button><button id="scene-resume" disabled>继续上次路演</button><button id="scene-return" class="return-formal" disabled>返回正式进度</button><p id="scene-status" role="status">切换需要实机确认；路演档与正式档独立保存。</p></section>
+<div id="data-warning" class="data-warning" role="status" hidden></div>
+<div class="stage-grid">
+<section class="screen-panel" aria-label="设备实况">
+<div class="panel-top"><span><i id="video-dot" class="dot"></i><strong id="video-label">设备画面 · 尚未接入</strong></span><span id="video-meta">选择实时画面来源</span></div>
+<div id="viewport" class="viewport">
+<canvas id="screen" width="960" height="720" hidden aria-label="设备实时画面，可拖动调整位置"></canvas><video id="source-video" autoplay muted playsinline hidden></video>
+<div id="video-empty" class="video-empty"><span class="empty-glyph">⌑</span><h2>把这一刻，放大给大家看。</h2><p>摄像头对准设备，展示画面与手上的真实操作。<br>也可接入电脑上已有的投屏窗口。</p><div class="source-actions"><button id="camera-start" class="primary">接入摄像头</button><button id="window-start">接入投屏窗口</button></div><small>USB 同步实机状态；视频在本机显示，不上传。</small></div>
+<span id="video-interrupted" class="interrupted" hidden>画面已中断 · 请重新接入</span><span class="screen-caption" id="screen-caption">LIVE DEVICE / 等待画面</span>
+</div>
+<div class="video-controls"><button id="settings-toggle" aria-expanded="false">画面设置</button><span id="capture-status" role="status">画面与 USB 数据独立连接</span><button id="video-stop" disabled>停止画面</button></div>
+<div class="settings" id="settings" hidden><label>摄像头 <select id="camera-device"><option value="">默认摄像头</option></select></label><button id="camera-switch">切换摄像头</button><button id="window-switch">选投屏窗口</button><label>放大 <input id="zoom" type="range" min="1" max="4" step="0.05" value="1"></label><button id="rotate">旋转 90°</button><button id="mirror" aria-pressed="false">镜像</button><button id="reset-frame">恢复画幅</button><small>拖动画面调整取景 · 不采集麦克风</small></div>
+</section>
+<section class="story-panel" aria-label="路演重点">
+<nav id="topics" class="topics" aria-label="选择讲解重点"><button data-topic="0" aria-pressed="true">01 自己生活</button><button data-topic="1" aria-pressed="false">02 一起做事</button><button data-topic="2" aria-pressed="false">03 记得经历</button><button data-topic="3" aria-pressed="false">04 慢慢成长</button></nav>
+<div class="topic-copy"><p class="eyebrow" id="topic-kicker">AUTONOMY / 自主生活</p><h2 id="topic-title">你不说话，<br>它也有自己的生活。</h2><p id="topic-description">照料植物、看看窗外、工作后休息。每一次行动，都由设备记录开始、到达和结果。</p></div>
+<div class="evidence-card"><div class="evidence-head"><span id="evidence-label">此刻的园丁</span><span class="mini-tag" id="evidence-freshness">等待实机</span></div><strong id="evidence-main">等待完整实机数据</strong><p id="evidence-detail">连接设备后显示，不填入演示数值。</p><div id="evidence-rows" class="evidence-rows"></div></div>
+<div class="point"><span>让评委看见</span><p id="judge-point">把设备放下，观察它如何独立行动。</p></div>
+</section>
+</div>
+<section class="bottom-grid"><div class="events-panel"><div class="section-title"><h2>刚刚真实发生的事</h2><span id="events-scope">设备经历 · 最新优先</span></div><div id="events" class="events"><p class="muted">等待设备经历记录。</p></div></div><div class="world-panel"><div class="section-title"><h2>这座花园在运行</h2><span id="world-mode">等待设备</span></div><div id="world-metrics" class="world-metrics"></div><p id="world-detail" class="muted">资源、生长与记忆来自同一台设备。</p></div></section>
+<aside id="presenter-notes" class="presenter-notes" hidden><strong>3 分钟讲解顺序</strong><ol><li>30 秒：展示手中设备，介绍花园车厢与园丁。</li><li>40 秒：放下设备，展示自主行动与实际到达。</li><li>50 秒：说“照料第一株植物”，核对请求 → 执行 → 结果。</li><li>40 秒：展示真实经历与档案，说明它如何慢慢改变。</li><li>20 秒：回到产品价值：持续共同生活，让陪伴留下痕迹。</li></ol><p>快捷键 1–4 切换重点 · F 全屏 · N 讲解提示。切换页面重点只改变讲解内容，不改变游戏。</p></aside>
+</main><footer><span>SPRING TERMINAL <b>·</b> 真实画面，真实经历。</span><span id="data-age">USB 快照约 5 秒更新 · 画面单独实时采集</span><span>1–4 切换重点 / F 全屏</span></footer>
+</body></html>

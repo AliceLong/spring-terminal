@@ -1,0 +1,26 @@
+{
+  "scope": "host-only candidate overrides, never firmware configuration",
+  "bonus_percent": 20,
+  "particles": 6,
+  "capture_real_seconds": 6,
+  "profiles": [
+    {"id": "current", "normal_moss": 6, "drought_moss": 4},
+    {"id": "mild_drought", "normal_moss": 6, "drought_moss": 3},
+    {"id": "strong_drought", "normal_moss": 5, "drought_moss": 2}
+  ],
+  "scenarios": [
+    {"id": "normal_auto_2h", "region": 0, "seconds": 7200, "water": 16, "energy": 12, "hits": 0, "scale": 1, "special": 0},
+    {"id": "normal_manual_2h", "region": 0, "seconds": 7200, "water": 16, "energy": 12, "hits": 6, "scale": 1, "special": 0},
+    {"id": "normal_partial_2h", "region": 0, "seconds": 7200, "water": 16, "energy": 12, "hits": 3, "scale": 1, "special": 0},
+    {"id": "drought_auto_3demo_minutes", "region": 1, "seconds": 1800, "water": 8, "energy": 12, "hits": 0, "scale": 10, "special": 0},
+    {"id": "drought_manual_3demo_minutes", "region": 1, "seconds": 1800, "water": 8, "energy": 12, "hits": 6, "scale": 10, "special": 0},
+    {"id": "drought_partial_3demo_minutes", "region": 1, "seconds": 1800, "water": 8, "energy": 12, "hits": 3, "scale": 10, "special": 0},
+    {"id": "drought_auto_6demo_minutes", "region": 1, "seconds": 3600, "water": 8, "energy": 12, "hits": 0, "scale": 10, "special": 0},
+    {"id": "drought_manual_6demo_minutes", "region": 1, "seconds": 3600, "water": 8, "energy": 12, "hits": 6, "scale": 10, "special": 0},
+    {"id": "near_zero_auto_2h", "region": 1, "seconds": 7200, "water": 0, "energy": 0, "hits": 0, "scale": 1, "special": 0},
+    {"id": "near_zero_manual_2h", "region": 1, "seconds": 7200, "water": 0, "energy": 0, "hits": 6, "scale": 1, "special": 0},
+    {"id": "full_storage_manual_2h", "region": 0, "seconds": 7200, "water": 60, "energy": 60, "hits": 6, "scale": 1, "special": 1},
+    {"id": "unattended_24h", "region": -1, "seconds": 86400, "water": 16, "energy": 12, "hits": 0, "scale": 1, "special": 0},
+    {"id": "offline_24h", "region": -1, "seconds": 86400, "water": 16, "energy": 12, "hits": 0, "scale": 1, "special": 3}
+  ]
+}

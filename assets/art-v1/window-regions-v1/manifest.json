@@ -1,0 +1,188 @@
+{
+  "version": 1,
+  "generator": "built-in image_gen",
+  "new_regions": 4,
+  "new_masters": 8,
+  "regions": [
+    {
+      "id": 0,
+      "key": "plains",
+      "name": "晴朗平原",
+      "title": "Open plain",
+      "description": "现有场景，拱桥遗迹与开阔绿地",
+      "new": false,
+      "far": "layers/plains-far.png",
+      "near": "layers/plains-near.png",
+      "far_master": "assets/art-v1/masters/landscape-far.png",
+      "near_master": "assets/art-v1/masters/landscape-near.png",
+      "device_far": {
+        "file": "device/plains-far-rgb565.bin",
+        "format": "RGB565",
+        "width": 480,
+        "height": 240,
+        "stride": 960,
+        "bytes": 230400,
+        "sha256": "52f2292d310c97735a48f40c4c6ddf3e6536b2cf1ed5eaab6e590d4585dbac88"
+      },
+      "device_near": {
+        "file": "device/plains-near-i4.bin",
+        "format": "I4",
+        "width": 480,
+        "height": 128,
+        "stride": 240,
+        "bytes": 30784,
+        "sha256": "31d94a25d00b9cc46aa864ce6bea5b6cdc760000beb1d311124fb2391a99e88d"
+      },
+      "far_device_preview": "device/plains-far-rgb565.png",
+      "near_device_preview": "device/plains-near-i4.png"
+    },
+    {
+      "id": 1,
+      "key": "wasteland",
+      "name": "干旱荒原",
+      "title": "Dry wasteland",
+      "description": "断桥、锈蚀输电塔、废弃集能板与耐旱植物",
+      "new": true,
+      "far": "layers/wasteland-far.png",
+      "near": "layers/wasteland-near.png",
+      "far_master": "assets/art-v1/window-regions-v1/masters/wasteland-far.png",
+      "near_master": "assets/art-v1/window-regions-v1/masters/wasteland-near.png",
+      "device_far": {
+        "file": "device/wasteland-far-rgb565.bin",
+        "format": "RGB565",
+        "width": 480,
+        "height": 240,
+        "stride": 960,
+        "bytes": 230400,
+        "sha256": "0590c42c80169f9424e35c9f5b86d7ee17fa0c77e2fd436e44c0806c7469f68c"
+      },
+      "device_near": {
+        "file": "device/wasteland-near-i4.bin",
+        "format": "I4",
+        "width": 480,
+        "height": 128,
+        "stride": 240,
+        "bytes": 30784,
+        "sha256": "5df3b2a59e2e0b20cb8a37b745f5ae85f0ce8bb148ee6fc055aa8fd97bb4a533"
+      },
+      "far_device_preview": "device/wasteland-far-rgb565.png",
+      "near_device_preview": "device/wasteland-near-i4.png",
+      "firmware_far_preview": "firmware/wasteland_far.png",
+      "firmware_near_preview": "firmware/wasteland_near.png"
+    },
+    {
+      "id": 2,
+      "key": "rain_city",
+      "name": "雨中旧城",
+      "title": "Rainy old city",
+      "description": "空楼、旧车站和高架桥，藤蔓与雨雾交织",
+      "new": true,
+      "far": "layers/rain_city-far.png",
+      "near": "layers/rain_city-near.png",
+      "far_master": "assets/art-v1/window-regions-v1/masters/rain_city-far.png",
+      "near_master": "assets/art-v1/window-regions-v1/masters/rain_city-near.png",
+      "device_far": {
+        "file": "device/rain_city-far-rgb565.bin",
+        "format": "RGB565",
+        "width": 480,
+        "height": 240,
+        "stride": 960,
+        "bytes": 230400,
+        "sha256": "6c64a0fb44a526e06e90657f09159903a273e0486858115631f16b6ab0bb6ef2"
+      },
+      "device_near": {
+        "file": "device/rain_city-near-i4.bin",
+        "format": "I4",
+        "width": 480,
+        "height": 128,
+        "stride": 240,
+        "bytes": 30784,
+        "sha256": "a73e86a79d8a02b72464b1d1ca15fbfa6c1ef623e84ce591e9340d3ffa85a36d"
+      },
+      "far_device_preview": "device/rain_city-far-rgb565.png",
+      "near_device_preview": "device/rain_city-near-i4.png",
+      "firmware_far_preview": "firmware/rain_city_far.png",
+      "firmware_near_preview": "firmware/rain_city_near.png"
+    },
+    {
+      "id": 3,
+      "key": "tunnel",
+      "name": "废弃隧道",
+      "title": "Abandoned tunnel",
+      "description": "旧廊道、信号与管线，苔藓蕨类从破口长入",
+      "new": true,
+      "far": "layers/tunnel-far.png",
+      "near": "layers/tunnel-near.png",
+      "far_master": "assets/art-v1/window-regions-v1/masters/tunnel-far.png",
+      "near_master": "assets/art-v1/window-regions-v1/masters/tunnel-near.png",
+      "device_far": {
+        "file": "device/tunnel-far-rgb565.bin",
+        "format": "RGB565",
+        "width": 480,
+        "height": 240,
+        "stride": 960,
+        "bytes": 230400,
+        "sha256": "47da760983308c392c1a01306cf970ac5296f2a1070af453b91f2b2ef9f930ff"
+      },
+      "device_near": {
+        "file": "device/tunnel-near-i4.bin",
+        "format": "I4",
+        "width": 480,
+        "height": 128,
+        "stride": 240,
+        "bytes": 30784,
+        "sha256": "ebbf33efee4c8e818e25edfcf9fc0f243a54df27394bab1474f41d97498367d9"
+      },
+      "far_device_preview": "device/tunnel-far-rgb565.png",
+      "near_device_preview": "device/tunnel-near-i4.png",
+      "firmware_far_preview": "firmware/tunnel_far.png",
+      "firmware_near_preview": "firmware/tunnel_near.png"
+    },
+    {
+      "id": 4,
+      "key": "forest",
+      "name": "繁茂森林",
+      "title": "Reclaimed forest",
+      "description": "站台雨棚与栈桥，被树根、藤蔓和花草包围",
+      "new": true,
+      "far": "layers/forest-far.png",
+      "near": "layers/forest-near.png",
+      "far_master": "assets/art-v1/window-regions-v1/masters/forest-far.png",
+      "near_master": "assets/art-v1/window-regions-v1/masters/forest-near.png",
+      "device_far": {
+        "file": "device/forest-far-rgb565.bin",
+        "format": "RGB565",
+        "width": 480,
+        "height": 240,
+        "stride": 960,
+        "bytes": 230400,
+        "sha256": "645fdb478ff3ab86257d4384b5d27f14c8fb3779ec136630a6741ea1049ff595"
+      },
+      "device_near": {
+        "file": "device/forest-near-i4.bin",
+        "format": "I4",
+        "width": 480,
+        "height": 128,
+        "stride": 240,
+        "bytes": 30784,
+        "sha256": "9ec22dd88aad1c635b8e2b36b296ca5dc0600b8206606fbdfa835321f19ed715"
+      },
+      "far_device_preview": "device/forest-far-rgb565.png",
+      "near_device_preview": "device/forest-near-i4.png",
+      "firmware_far_preview": "firmware/forest_far.png",
+      "firmware_near_preview": "firmware/forest_near.png"
+    }
+  ],
+  "device_status": "Standalone candidates only; not added to firmware or flashed",
+  "repeat": "Reflected-repeat scrolling avoids demanding identical generated image edge pixels",
+  "far_size": [
+    480,
+    240
+  ],
+  "near_size": [
+    480,
+    128
+  ],
+  "new_device_bytes": 1044736,
+  "per_region_device_bytes": 261184
+}

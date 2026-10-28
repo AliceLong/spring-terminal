@@ -1,0 +1,15 @@
+{
+  "application_implementation_changed_by_packaging": false,
+  "live_player_data_included": false,
+  "sdk_included": false,
+  "public_component_snapshot_included": false,
+  "dependency_versions_locked": true,
+  "historical_git_and_release_directories_included": false,
+  "dependency_download_cache_included": false,
+  "portable_changes": [
+    "README and scope/asset/runtime documentation",
+    "relative-path launcher entrypoints",
+    "CMake/Ninja lookup in host UI test scripts",
+    "new unified test and verification helpers"
+  ]
+}

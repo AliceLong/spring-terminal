@@ -1,0 +1,37 @@
+{
+  "generator": "built-in image_gen",
+  "sheet": "assets/art-v1/story-v46/masters/memorial-flower-atlas.png",
+  "common_crop": [
+    1,
+    75,
+    543,
+    702
+  ],
+  "frame_size": [
+    56,
+    80
+  ],
+  "device_bytes": 22016,
+  "frames": [
+    {
+      "frame": 0,
+      "bytes": 5504,
+      "sha256": "5df285dc9f200c04be7e2d1aff6c52f723e0a48420854a047645e137c408abfa"
+    },
+    {
+      "frame": 1,
+      "bytes": 5504,
+      "sha256": "6ed387348dae52ff00bfb682b359aa79b03fec768beb57d5b408208db341a18c"
+    },
+    {
+      "frame": 2,
+      "bytes": 5504,
+      "sha256": "1d2880947b04aee6fd3b1d228097bb4a5000805efd43f54f6d4a40454463dfbc"
+    },
+    {
+      "frame": 3,
+      "bytes": 5504,
+      "sha256": "3a0e38454cd5bacaefbd68e07fd0525e7c22ce2a33225792fcec64fa9bdbb4b8"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+test_conflict_atomic_rollback (test_archive.ArchiveTests) ... ok
+test_dedupe_reboot_and_permanent_disk (test_archive.ArchiveTests) ... ok
+test_gaps_and_backfill (test_archive.ArchiveTests) ... ok
+test_milestones_survive_ring_rollover (test_archive.ArchiveTests) ... ok
+test_world_isolation_and_paging (test_archive.ArchiveTests) ... ok
+test_bounded_numeric_log_and_old_firmware (test_audio_diagnostics.AudioDiagnosticsTests) ... ok
+test_fixed_routes_and_local_read_only_boundary (test_roadshow.RoadshowTests) ... ok
+test_observer_failure_is_not_live_or_example_data (test_roadshow.RoadshowTests) ... ok
+test_reuses_observer_and_preserves_queries (test_roadshow.RoadshowTests) ... ok
+test_proxy_errors_are_json_even_with_old_html_upstream (test_roadshow_control.ControlHTTPTests) ... ok
+test_single_authorized_route_through_roadshow_proxy (test_roadshow_control.ControlHTTPTests) ... ok
+test_bounded_packet_and_no_economic_payload (test_roadshow_control.ControlTests) ... ok
+test_chapter_scenes_are_explicit_bounded_requests (test_roadshow_control.ControlTests) ... ok
+test_confirmation_requires_matching_request_world_mode_and_epoch (test_roadshow_control.ControlTests) ... ok
+test_disconnect_restart_and_timeout_never_replay (test_roadshow_control.ControlTests) ... ok
+test_old_firmware_refuses_new_scenes_immediately (test_roadshow_control.ControlTests) ... ok
+test_refuses_stale_unsupported_malformed_and_old_demo (test_roadshow_control.ControlTests) ... ok
+test_rejected_acknowledgement (test_roadshow_control.ControlTests) ... ok
+test_fragmented_unicode_and_out_of_order (test_server.MonitorTests) ... ok
+test_http_read_only_and_no_traversal (test_server.MonitorTests) ... ok
+test_incomplete_never_committed (test_server.MonitorTests) ... ok
+test_malformed_and_bounds (test_server.MonitorTests) ... ok
+test_stale_and_reconnect (test_server.MonitorTests) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 3.618s
+
+OK
